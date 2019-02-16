@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Table</title>
+   <script type="text/javascript">
+      
+   </script>
+	<style type="text/css">
+		table,td,th{
+              border :1px solid green ;
+		}
+		td{
+            width: 50px;
+		}
+      .button {
+                  background-color: #31A231;
+                  color: white;
+                  border: 2px solid #4CAF50;
+                  padding: 5px 15px;
+                  text-align: center;
+                  font-size: 16px;
+                  margin: 4px 2px;
+                  cursor: pointer;
+                  border-radius:6px;
+              }
+      .button:hover {
+                  background-color: white;
+                  color: #31A231;
+              }
+      .button {
+                  transition-duration: 0.4s;
+              }
+      .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+              }
+		th{
+			height: 50px;
+			width: 100px;
+         background-color: #00FFFF;
+		}
+		table{
+			width: 100%;
+		}
+      .lunch{
+         background-color: #00FF00;
+      }
+		.day{
+          height:50px;
+		}
+		.slotA{
+              background-color: blue;
+		}
+      .slotB{
+              background-color: green;
+      }
+      .slotC{
+              background-color: red;
+      }
+      .slotD{
+              background-color: yellow;
+      }
+      .slotE{
+              background-color: pink;
+      }
+      .slotF{
+              background-color: orange;
+      }
+      .slotG{
+              background-color: purple;
+      }
+      .slotP{
+              background-color: grey;
+      }
+      
+	</style>
+</head>
+<body>
+ 
+
+   <table>
+   	 <tr>
+   	 	<th><h3>DAY</h3></th>
+   	 	<th>8:00  - 8:50 </th>
+   	 	<th>9:00  - 9:50 </th>
+   	 	<th>10:00 - 10:50 </th>
+   	 	<th>11:00 - 11:50 </th>
+   	 	<th class="lunch" rowspan="6"><h3>LUNCH BREAK</h3>  12:00 - 12:50</th>
+   	 	<th>1:00  - 1:50 </th>
+   	 	<th>2:00  - 2:50 </th>
+   	 	<th>3:00  - 3:50 </th>
+   	 	<th>4:00  - 4:50 </th>
+   	 	<th>5:00  - 5:50 </th>
+   	 </tr>
+   	 <tr>
+   	 	<th class="day">MONDAY</th>
+   	 	<td class="slotA"><b>GRAPH THEORY</b></td>
+   	 	<td class="slotB"><b>MATH PHY</b></td>
+   	 	<td class="slotC"><b>CIRCUITS</td></td>
+   	 	<td></td>
+   	 	<td class="slotG"><b>CLASSICAL DYNAMICS</td>
+   	 	<td class="slotP" colspan="2"></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 </tr>
+   	 <tr>
+   	 	<th style="height: 50px;">TUESDAY</th>
+   	 	<td class="slotB"><b>MATH PHY</b></td>
+   	 	<td class="slotC"><b>CIRCUITS</b></td>
+   	 	<td></td>
+   	 	<td class="slotE"></td>
+   	 	<td class="slotA"><b>GRAPH THEORY</b></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 </tr>
+   	 <tr>
+   	 	<th style="height: 50px;">WEDESDAY</th>
+   	 	<td class="slotC"><b>CIRCUITS</b></td>
+   	 	<td></td>
+   	 	<td class="slotE"></td>
+   	 	<td></td>
+   	 	<td class="slotB"><b>MATH PHY</b></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td class="slotG"><b>CLASSICAL DYNAMICS</td>
+   	 </tr>
+   	 <tr>
+   	 	<th style="height: 50px;">THURSDAY</th>
+   	 	<td class="slotE"></td>
+   	 	<td></td>
+   	 	<td class="slotG"><b>CLASSICAL DYNAMICS</td>
+   	 	<td class="slotA"><b>GRAPH THEORY</b></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 </tr>
+   	 <tr>
+   	 	<th style="height: 50px;">FRIDAY</th>
+   	 	<td></td>
+   	 	<td class="slotG"><b>CLASSICAL DYNAMICS</td>
+   	 	<td class="slotA"><b>GRAPH THEORY</b></td>
+   	 	<td class="slotB"><b>MATH PHY</b></td>
+   	 	<td class="slotC"><b>CIRCUITS</b></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td></td>
+   	 	<td class="slotE"></td>
+   	 </tr>
+   </table>
+</body>
+</html>
